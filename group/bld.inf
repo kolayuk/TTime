@@ -1,0 +1,26 @@
+
+PRJ_PLATFORMS
+WINSCW ARMV5 GCCE
+
+
+#ifdef SBSV2
+
+PRJ_EXTENSIONS
+	
+	START EXTENSION s60/mifconv
+	OPTION TARGETFILE ttime_0xE8B8C04B.mif
+	OPTION HEADERFILE ttime_0xE8B8C04B.mbg
+	OPTION SOURCEDIR ../gfx
+	OPTION SOURCES -c32 qgn_menu_TTime
+	END
+
+#else
+
+PRJ_MMPFILES
+
+	gnumakefile icons_scalable_dc.mk
+
+#endif
+
+PRJ_MMPFILES
+TTime.mmp

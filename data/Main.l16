@@ -1,0 +1,43 @@
+/*
+========================================================================
+ Name        : Main.l16
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2011
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Russian (16)
+CHARACTER_SET UTF8
+
+#define STR_MainView_3 ""
+#define STR_MainView_4 "TTime"
+#define STR_MainView_1 "Меню"
+#define STR_MainView_2 "Свернуть"
+#define STR_MainView_12 "О  программе"
+#define STR_MainView_13 "Выход"
+#define STR_MainView_10 "Изменить"
+#define STR_MainView_11 "Другие программы"
+#define STR_MainView_31 "Оттенок зеленого (0-255)"
+#define STR_MainView_32 ""
+#define STR_MainView_33 "Оттенок синего (0-255)"
+#define STR_MainView_34 ""
+#define STR_MainView_35 "Прозрачность (0-255)"
+#define STR_MainView_36 ""
+#define STR_MainView_21 "Высота"
+#define STR_MainView_22 ""
+#define STR_MainView_25 "Оттенок красного (0-255)"
+#define STR_MainView_26 ""
+#define STR_MainView_5 "Положение Х"
+#define STR_MainView_17 "Макс. ширина"
+#define STR_MainView_6 ""
+#define STR_MainView_18 ""
+#define STR_MainView_8 "Положение Y"
+#define STR_MainView_9 ""
+#define STR_AboutHeader "TTime v.1.0 - О программе"
+#define STR_AboutText "TTime- приложение показывающее время поверх всех окон.\n Разработчик: Усанов-Корнилов Николай aka Kolay\nWeb: http://kolaysoft.ru/\nSupport: kolayuk@mail.ru\nTwitter: @kolayuk\n Мои реквизиты:\n"

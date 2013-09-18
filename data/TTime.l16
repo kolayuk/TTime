@@ -1,0 +1,20 @@
+/*
+========================================================================
+ Name        : TTime.l16
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2011
+
+ Description : 
+========================================================================
+*/
+// localized strings for language: Russian (16)
+#define STR_TTimeApplication_4 "TTime"
+#define STR_TTimeApplication_5 "TTime"
+#define STR_TTimeApplication_1 ""
+#define STR_TTimeApplication_2 ""
+#define STR_TTimeApplication_3 ""

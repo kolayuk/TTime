@@ -1,0 +1,53 @@
+/*
+========================================================================
+ Name        : TTime.rss
+ Author      : Usanov-Kornilov Nikolay (aka Kolay)
+ Copyright   : 
+Contacts:
+	kolayuk@mail.ru
+	http://kolaysoft.ru
+
+(c) KolaySoft, 2011
+
+ Description : 
+========================================================================
+*/
+NAME TTIM
+
+#include <avkon.rsg>
+#include <avkon.rh>
+#include <eikon.rh>
+#include <appinfo.rh>
+#include "TTime.hrh"
+#include "TTime.loc"
+
+RESOURCE RSS_SIGNATURE
+	{
+	}
+RESOURCE TBUF
+	{
+	buf = "TTime";
+	}
+RESOURCE EIK_APP_INFO r_application_ttime_app_ui
+	{
+	cba = R_AVKON_SOFTKEYS_OPTIONS_EXIT;
+	status_pane = r_application_status_pane;
+	}
+RESOURCE STATUS_PANE_APP_MODEL r_application_status_pane
+	{
+	}
+RESOURCE LOCALISABLE_APP_INFO r_localisable_app_info
+	{
+	short_caption = STR_TTimeApplication_5;
+	caption_and_icon = CAPTION_AND_ICON_INFO
+		{
+		caption = STR_TTimeApplication_4;
+		number_of_icons = 1;
+		icon_file="\\resource\\apps\\TTime_aif.mif";
+		};
+	}
+RESOURCE TBUF r_application_akn_view_reference1
+	{
+	}
+
+#include "Main.rssi"
